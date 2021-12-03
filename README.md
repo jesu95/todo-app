@@ -15,12 +15,12 @@ ToDo web application using a React front-end with a Java Spring Boot backend. We
 
 ## Pre-requisites
 
-Previously it is required MariaDB, NodeJS and, NPM.
+Previously it is required to have installed: MariaDB, NodeJS and, NPM.
 
 ## Installation
 
-1- Clone this repo.
-2- Run the init.sh script.
-3- Enter MariaDB credentials to create a database.
-4- Wait for configuration.
+1- Clone this repo.<br />
+2- Run the init.sh script.<br />
+3- Enter MariaDB credentials to create a database.<br />
+4- Wait for configuration.<br />
 5- Once all configurations are executed the app runs automatically.
