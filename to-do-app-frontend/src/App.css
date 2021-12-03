@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  margin: 80px auto;
+  max-width: 800px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom,#858585 0%, #3a3a3a 100%);
+}
+
+.wrapper header{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper .inputfield{
+  display: flex;
+  height: 45px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputfield input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.inputfield button{
+  width: 60px;
+  height: 100%;
+  font-size: 22px;
+  margin-left: 5px;
+}
+
+.wrapper .todolist{
+  max-height: 250px;
+  overflow: auto;
+}
+
+.todolist li{
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background: #f2f2f2;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.todolist li input{
+  margin: 15px 10px;
+}
+
+.todolist li span{
+  width: 100%;
+  margin: 8px 0px;
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+#buttons{
+  float: right;
+  width: 60px;
+  height: 100%;
+  font-size: 22px;
+}
